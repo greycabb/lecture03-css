@@ -1,4 +1,30 @@
 /* Add your CSS rules here.
    Do not modify the HTML, no matter how much you want to!
 */
-
+circle {
+    fill: #5f5f5f;
+}
+path:not(.same) {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+circle.small {
+    fill: brown;
+}
+circle.small.contained {
+    fill: #573d29;
+}
+.group > circle, .same, #unique {
+    fill: #c0c0c0;
+}
+#unique {
+    /*fill: #c0c0c0;*/
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+#unique:hover {
+    fill: #bd250d;
+}
+svg > circle:last-child {
+    fill: black;
+}
