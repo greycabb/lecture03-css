@@ -2,20 +2,24 @@
    Do not modify the HTML, no matter how much you want to!
 */
 circle {
-    fill: #5f5f5f;
+    /*fill: #5f5f5f;*/
+    fill: rebeccapurple;
 }
 path:not(.same) {
     stroke: #5f5f5f;
+    /*fill: gold;*/
     stroke-width: 8px;
 }
-circle.small {
-    fill: brown;
+.small {
+    fill: white;
+    /*fill: gold;*/
 }
-circle.small.contained {
+.small.contained {
     fill: #573d29;
 }
 .group > circle, .same, #unique {
-    fill: #c0c0c0;
+    /*fill: #c0c0c0;*/
+    fill: lightgoldenrodyellow;
 }
 #unique {
     /*fill: #c0c0c0;*/
@@ -27,4 +31,8 @@ circle.small.contained {
 }
 svg > circle:last-child {
     fill: black;
+    /*fill: red;*/
 }
+
+
+
